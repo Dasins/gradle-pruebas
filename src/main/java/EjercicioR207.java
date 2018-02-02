@@ -22,6 +22,7 @@ class EjercicioR207
         cadenaADevolver = cadenaADevolver.trim();
         
 // cambio para travis
+// camnio del punto
 cadenaADevolver = cadenaADevolver.replace(" ",",");
     }
     return cadenaADevolver;
