@@ -20,7 +20,9 @@ class EjercicioR207
             cadenaADevolver =  cadenaADevolver + " " + palabraMasLarga;
         }
         cadenaADevolver = cadenaADevolver.trim();
-        cadenaADevolver = cadenaADevolver.replace(" ",",");
+        
+// cambio para travis
+cadenaADevolver = cadenaADevolver.replace(" ",",");
     }
     return cadenaADevolver;
   }
